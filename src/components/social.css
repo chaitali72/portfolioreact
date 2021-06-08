@@ -1,0 +1,115 @@
+
+.social-box {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 0;
+    width: 1.5rem;
+    z-index: 100;
+    display: block;
+
+}
+
+
+.follow-label {
+    padding-right: 5rem;
+    position: absolute; 
+    bottom: 100%;
+    right: 0;
+    font-weight: 500;
+    color: var(--textcolor);
+    line-height: 1.5rem;
+    height: 1.5rem;
+    white-space: nowrap;
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    text-align: right;
+    -webkit-transform: rotate(
+90deg
+);
+    transform: rotate(
+90deg
+);
+    font-size: 1.5rem;
+    font-family: 800;
+}
+
+
+ i {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: var(--headingcolor);
+    
+}
+i:hover {
+    color:var(--textcolor);
+    cursor: pointer;
+}
+
+.follow-label::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 60px;
+    height: 2px;
+    background: var(--textcolor);
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .social-box {
+        /* position: fixed; */
+        /* right: 10; */
+        /* bottom: 0; */
+        width: 100%;
+        z-index: 200;
+        display: block;
+        right: 18%;
+    }
+    .follow-label {
+        padding-right: 5rem;
+        position: absolute; 
+        /* bottom: 100%; */
+        /* right: 10; */
+        font-weight: 500;
+        color: var(--textcolor);
+        line-height: 1.5rem;
+        height: 1.5rem;
+        white-space: nowrap;
+        -webkit-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+        text-align: right;
+        -webkit-transform: rotate(
+    90deg
+    );
+        transform: rotate(
+    90deg
+    );
+        font-size: 1.5rem;
+        font-family: 800;
+    }
+    i {
+        /* display: block; */
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: var(--headingcolor);
+        
+    }
+    i:hover {
+        color:var(--textcolor);
+        cursor: pointer;
+    }
+    
+    .follow-label::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        /* right: 0; */
+        width: 100px;
+        height: 2px;
+        background: var(--textcolor);
+}
+}

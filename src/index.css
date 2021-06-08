@@ -1,0 +1,39 @@
+@import 'normalize.css';
+
+
+ :root{
+  --headingcolor: #D10068;
+  --textcolor: #292929;
+  --headingfont: 'Poppins', sans-serif;
+  --textfont: 'Teko', sans-serif;
+  --backgroundcolor: #fefbe9;
+ 
+--whitebackground:#fff;
+--sectioncolor: #b0e0e6;
+  
+
+} 
+body {
+  margin: 0;
+    font-family: var(--headingfont);
+    background-color: var(--backgroundcolor);
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 16px;
+  
+} 
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clearfix:before {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  display: block;
+}
