@@ -32,12 +32,12 @@ const Header = (props) => {
                   <i className="fab fa-github">   </i></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/chaitalismahida/">
+                <a href="https://www.linkedin.com/in/chaitalimahida/" target="_blank" rel ="noopener noreferrer">
                  <i className="fab fa-linkedin">   </i></a>
               </li>
              
               <li>
-                <a href="https://chaitali72.github.com">
+                <a href="https://chaitali72.github.com" target="_blank" rel ="noopener noreferrer">
                   <i className="fas fa-rocket"></i> </a>
               </li>
               
