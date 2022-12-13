@@ -14,28 +14,19 @@ header.work-header {
   img#about_photo,
   img#work-photo {
     display: block;
-    // max-width: 100%;
     height: auto;
     border-radius: 8px;
     top: 81px;
-    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.1);    
   }
 }
 
 .main-img {
-  img#profile-photo {
-    // display: block;
-    // height: auto;
-    margin: 0 auto;
-    // margin-left: 300px;
-    // position: static;
-    // max-width: 100%;
-    border-radius: 8px;
-    transition: opacity 500ms ease 0s;
-    object-fit: cover;
-    opacity: 2;
-    border-style: none;
-  }
+margin-left: 50px;
+
+}
+.main-img #profile-photo{
+  border-radius: 20px;
 }
 
 .introduction {
